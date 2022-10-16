@@ -1,0 +1,69 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-around;
+}
+.profile-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	padding: 20px 0;
+	width: 300px;
+	border-radius: 2px;
+	text-align: center;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	margin: 5px;
+	background: rgba(255, 255, 255, 1);
+}
+.card-img {
+	height: 80px;
+	object-fit: cover;
+	border: 1px solid gray;
+	border-radius: 50%;
+	padding: 2px;
+}
+h1 {
+	font-weight: 200;
+	font-size: 42px;
+	color: #444;
+	letter-spacing: -3px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+h2 {
+	font-weight: 400;
+	font-size: 14px;
+	color: #666;
+	letter-spacing: 0.5px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.bio {
+	margin-top: 20pt;
+	display: flex;
+}
+.bio-title {
+	margin-right: 30px;
+}
+.bio p {
+	text-align: left;
+	margin: 0;
+}
+.bio-title p {
+	font-weight: bold;
+}
